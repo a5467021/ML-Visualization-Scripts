@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     57650,       1352]
-NotebookOptionsPosition[     56132,       1303]
-NotebookOutlinePosition[     56522,       1320]
-CellTagsIndexPosition[     56479,       1317]
+NotebookDataLength[     52966,       1249]
+NotebookOptionsPosition[     51755,       1207]
+NotebookOutlinePosition[     52145,       1224]
+CellTagsIndexPosition[     52102,       1221]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -64,9 +64,9 @@ Cell[BoxData[
     RowBox[{"SomeClassificationCostFunction", "[", "\[Theta]", "]"}], ":=", 
     "0"}]}]}]], "Input",
  CellChangeTimes->{{3.77534636541358*^9, 3.7753463709233356`*^9}, {
-  3.775479482335412*^9, 3.7754795006834326`*^9}, {3.775516487804516*^9, 
-  3.7755165293081903`*^9}, {3.7755165595400753`*^9, 3.775516608532508*^9}, {
-  3.7755166975115995`*^9, 3.775516737299359*^9}}],
+   3.775479482335412*^9, 3.7754795006834326`*^9}, {3.775516487804516*^9, 
+   3.7755165293081903`*^9}, {3.7755165595400753`*^9, 3.775516608532508*^9}, {
+   3.7755166975115995`*^9, 3.775516737299359*^9}, 3.775570276429947*^9}],
 
 Cell[BoxData[
  RowBox[{"(*", 
@@ -206,12 +206,12 @@ Cell[BoxData[
     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
     "\"\:65e0\:6807\:9898\"", Typeset`specs$$ = {{
       Hold[$CellContext`\[Theta]1$$], -50, 50}}, Typeset`size$$ = {
-    492., {184., 16.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
-    Typeset`skipInitDone$$ = True, $CellContext`\[Theta]1$578561$$ = 0}, 
+    492., {187., 16.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = True, $CellContext`\[Theta]1$7884$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, "Variables" :> {$CellContext`\[Theta]1$$ = -50}, 
       "ControllerVariables" :> {
-        Hold[$CellContext`\[Theta]1$$, $CellContext`\[Theta]1$578561$$, 0]}, 
+        Hold[$CellContext`\[Theta]1$$, $CellContext`\[Theta]1$7884$$, 0]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -245,7 +245,7 @@ $CellContext`\[Theta]1min, $CellContext`\[Theta]1max},
          PlotRange -> {-1, 2}]}, 
       "Specifications" :> {{$CellContext`\[Theta]1$$, -50, 50}}, 
       "Options" :> {}, "DefaultOptions" :> {}],
-     ImageSizeCache->{553., {153., 160.}},
+     ImageSizeCache->{553., {155., 162.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -262,7 +262,7 @@ $CellContext`\[Theta]1min, $CellContext`\[Theta]1max},
    3.7753462339906597`*^9, 3.7753463744325047`*^9, 3.7753490145646725`*^9, 
    3.7753598762985687`*^9, 3.775477946485429*^9, 3.7755142625447855`*^9, {
    3.7755160515907316`*^9, 3.775516072543413*^9}, {3.775516104201524*^9, 
-   3.775516112967758*^9}}]
+   3.775516112967758*^9}, {3.7755702735026655`*^9, 3.7755702813039455`*^9}}]
 }, Open  ]],
 
 Cell[BoxData[
@@ -426,14 +426,14 @@ Cell[BoxData[
       Hold[$CellContext`\[Theta]1$$], -5, 5}, {
       Hold[$CellContext`\[Theta]0$$], -5, 5}}, Typeset`size$$ = {
     492., {184., 16.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
-    Typeset`skipInitDone$$ = True, $CellContext`\[Theta]1$650137$$ = 
-    0, $CellContext`\[Theta]0$650138$$ = 0}, 
+    Typeset`skipInitDone$$ = True, $CellContext`\[Theta]1$9312$$ = 
+    0, $CellContext`\[Theta]0$9313$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`\[Theta]0$$ = -5, $CellContext`\[Theta]1$$ = \
 -5}, "ControllerVariables" :> {
-        Hold[$CellContext`\[Theta]1$$, $CellContext`\[Theta]1$650137$$, 0], 
-        Hold[$CellContext`\[Theta]0$$, $CellContext`\[Theta]0$650138$$, 0]}, 
+        Hold[$CellContext`\[Theta]1$$, $CellContext`\[Theta]1$9312$$, 0], 
+        Hold[$CellContext`\[Theta]0$$, $CellContext`\[Theta]0$9313$$, 0]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -491,7 +491,7 @@ $CellContext`x], {$CellContext`x, 0, 5}, AxesLabel -> {"x", "y"},
    3.775341004671299*^9, 3.775341022817484*^9}, 3.775346238223261*^9, 
    3.775346376167167*^9, 3.775349015949964*^9, 3.775359883117659*^9, 
    3.7754779559921618`*^9, 3.7755142670107927`*^9, 3.775516143888084*^9, {
-   3.775516189108485*^9, 3.775516218811311*^9}}]
+   3.775516189108485*^9, 3.775516218811311*^9}, 3.775570285706626*^9}]
 }, Open  ]],
 
 Cell[BoxData[
@@ -705,22 +705,22 @@ Cell[BoxData[{
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{$CellContext`\[Theta]0$$ = -2000, \
-$CellContext`\[Theta]1$$ = -1000, Typeset`show$$ = True, 
+   DynamicModuleBox[{$CellContext`\[Theta]0$$ = -2000., \
+$CellContext`\[Theta]1$$ = -1000., Typeset`show$$ = True, 
     Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
     "\"\:65e0\:6807\:9898\"", Typeset`specs$$ = {{
       Hold[$CellContext`\[Theta]1$$], -1000, 1000}, {
       Hold[$CellContext`\[Theta]0$$], -2000, 2000}}, Typeset`size$$ = {
     486.5, {421., 16.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
-    Typeset`skipInitDone$$ = True, $CellContext`\[Theta]1$653614$$ = 
-    0, $CellContext`\[Theta]0$653615$$ = 0}, 
+    Typeset`skipInitDone$$ = True, $CellContext`\[Theta]1$178430$$ = 
+    0, $CellContext`\[Theta]0$178431$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`\[Theta]0$$ = -2000, \
 $CellContext`\[Theta]1$$ = -1000}, "ControllerVariables" :> {
-        Hold[$CellContext`\[Theta]1$$, $CellContext`\[Theta]1$653614$$, 0], 
-        Hold[$CellContext`\[Theta]0$$, $CellContext`\[Theta]0$653615$$, 0]}, 
+        Hold[$CellContext`\[Theta]1$$, $CellContext`\[Theta]1$178430$$, 0], 
+        Hold[$CellContext`\[Theta]0$$, $CellContext`\[Theta]0$178431$$, 0]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -792,7 +792,90 @@ $CellContext`x], {$CellContext`x, 0, 5}, AxesLabel -> {"x", "y"},
    3.775514943843687*^9, 3.775514973841231*^9}, {3.7755150673136225`*^9, 
    3.775515102108008*^9}, {3.7755152774811025`*^9, 3.7755153043630176`*^9}, {
    3.7755153386003723`*^9, 3.7755153520521336`*^9}, 3.775515386284106*^9, 
-   3.7755162399772673`*^9}]
+   3.7755162399772673`*^9, 3.775570290009099*^9, 3.775570329088476*^9, 
+   3.7755725918087816`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Part", "::", "partw"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Part \[NoBreak]\\!\\(\\*RowBox[{\\\"5\\\"}]\\)\[NoBreak] \
+of \[NoBreak]\\!\\(\\*RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", \
+RowBox[{\\\"1\\\", \\\",\\\", \\\"0\\\"}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\
+\"{\\\", RowBox[{\\\"2\\\", \\\",\\\", \\\"0\\\"}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{\\\"3\\\", \\\",\\\", \\\"1\\\"}], \\\"}\\\"}], \\\
+\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"5\\\", \\\",\\\", \\\"1\\\"}], \
+\\\"}\\\"}]}], \\\"}\\\"}]\\)\[NoBreak] does not exist. \\!\\(\\*ButtonBox[\\\
+\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/General/partw\\\", ButtonNote -> \
+\\\"Part::partw\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.7755725966631327`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Part", "::", "partw"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Part \[NoBreak]\\!\\(\\*RowBox[{\\\"5\\\"}]\\)\[NoBreak] \
+of \[NoBreak]\\!\\(\\*RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", \
+RowBox[{\\\"1\\\", \\\",\\\", \\\"0\\\"}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\
+\"{\\\", RowBox[{\\\"2\\\", \\\",\\\", \\\"0\\\"}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{\\\"3\\\", \\\",\\\", \\\"1\\\"}], \\\"}\\\"}], \\\
+\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"5\\\", \\\",\\\", \\\"1\\\"}], \
+\\\"}\\\"}]}], \\\"}\\\"}]\\)\[NoBreak] does not exist. \\!\\(\\*ButtonBox[\\\
+\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/General/partw\\\", ButtonNote -> \
+\\\"Part::partw\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.775572597331912*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Part", "::", "partw"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Part \[NoBreak]\\!\\(\\*RowBox[{\\\"5\\\"}]\\)\[NoBreak] \
+of \[NoBreak]\\!\\(\\*RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", \
+RowBox[{\\\"1\\\", \\\",\\\", \\\"0\\\"}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\
+\"{\\\", RowBox[{\\\"2\\\", \\\",\\\", \\\"0\\\"}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{\\\"3\\\", \\\",\\\", \\\"1\\\"}], \\\"}\\\"}], \\\
+\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"5\\\", \\\",\\\", \\\"1\\\"}], \
+\\\"}\\\"}]}], \\\"}\\\"}]\\)\[NoBreak] does not exist. \\!\\(\\*ButtonBox[\\\
+\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/General/partw\\\", ButtonNote -> \
+\\\"Part::partw\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.775572597638728*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"General", "::", "stop"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Further output of \
+\[NoBreak]\\!\\(\\*StyleBox[RowBox[{\\\"Part\\\", \\\"::\\\", \
+\\\"partw\\\"}], \\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during \
+this calculation. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/General/stop\\\", ButtonNote -> \
+\\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.775572597676829*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Part", "::", "partw"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Part \[NoBreak]\\!\\(\\*RowBox[{\\\"5\\\"}]\\)\[NoBreak] \
+of \[NoBreak]\\!\\(\\*RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", \
+RowBox[{\\\"1\\\", \\\",\\\", \\\"0\\\"}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\
+\"{\\\", RowBox[{\\\"2\\\", \\\",\\\", \\\"0\\\"}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{\\\"3\\\", \\\",\\\", \\\"1\\\"}], \\\"}\\\"}], \\\
+\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"5\\\", \\\",\\\", \\\"1\\\"}], \
+\\\"}\\\"}]}], \\\"}\\\"}]\\)\[NoBreak] does not exist. \\!\\(\\*ButtonBox[\\\
+\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/General/partw\\\", ButtonNote -> \
+\\\"Part::partw\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.775572599430496*^9}]
 }, Open  ]],
 
 Cell[BoxData[
@@ -801,16 +884,13 @@ Cell[BoxData[
    RowBox[{
    "This", " ", "is", " ", "a", " ", "typical", " ", "algorithm", " ", "for", 
     " ", "classification", " ", 
-    RowBox[{"problems", ".", " ", "Though"}], " ", "there", " ", "are", " ", 
-    "still", " ", "multiple", " ", "local", " ", "optima"}], ",", " ", 
-   RowBox[{
-   "but", " ", "there", " ", "seems", " ", "to", " ", "be", " ", "only", " ", 
-    "one", " ", "*", "minimal", "*", " ", "optimum", " ", "in", " ", "such", 
-    " ", "a", " ", "large", " ", "range", " ", "of", " ", "\[Theta]"}]}], 
-  "*)"}]], "Input",
+    RowBox[{"problems", ".", " ", "A"}], " ", "rather", " ", "nice", " ", 
+    "shaped", " ", "surface"}], ",", " ", 
+   RowBox[{"right", "?"}]}], "*)"}]], "Input",
  CellChangeTimes->{{3.775479432283945*^9, 3.775479471011613*^9}, {
   3.7755156499179564`*^9, 3.7755157628646708`*^9}, {3.7755159314769106`*^9, 
-  3.7755159755051727`*^9}}],
+  3.7755159755051727`*^9}, {3.775571021603463*^9, 3.775571027937314*^9}, {
+  3.7755711424610567`*^9, 3.7755711478664384`*^9}}],
 
 Cell[CellGroupData[{
 
@@ -835,47 +915,67 @@ Cell[BoxData[{
        RowBox[{"Length", "[", "data", "]"}]}], ",", 
       RowBox[{
        RowBox[{"part", ":=", 
-        RowBox[{
+        RowBox[{"If", "[", 
          RowBox[{
-          RowBox[{"-", 
+          RowBox[{
            RowBox[{
             RowBox[{"data", "[", 
              RowBox[{"[", "a", "]"}], "]"}], "[", 
-            RowBox[{"[", "2", "]"}], "]"}]}], "*", 
-          RowBox[{"Log", "[", 
-           RowBox[{"h", "[", 
-            RowBox[{"\[Theta]1", ",", "\[Theta]0", ",", 
-             RowBox[{
-              RowBox[{"data", "[", 
-               RowBox[{"[", "a", "]"}], "]"}], "[", 
-              RowBox[{"[", "1", "]"}], "]"}]}], "]"}], "]"}]}], "-", 
-         RowBox[{
-          RowBox[{"(", 
-           RowBox[{"1", "-", 
-            RowBox[{
-             RowBox[{"data", "[", 
-              RowBox[{"[", "a", "]"}], "]"}], "[", 
-             RowBox[{"[", "2", "]"}], "]"}]}], ")"}], "*", 
-          RowBox[{"Log", "[", 
-           RowBox[{"1", "-", 
-            RowBox[{"h", "[", 
-             RowBox[{"\[Theta]1", ",", "\[Theta]0", ",", 
-              RowBox[{
-               RowBox[{"data", "[", 
-                RowBox[{"[", "a", "]"}], "]"}], "[", 
-               RowBox[{"[", "1", "]"}], "]"}]}], "]"}]}], "]"}]}]}]}], ";", 
-       RowBox[{"sum", "+=", 
-        RowBox[{"If", "[", 
-         RowBox[{
-          RowBox[{"NumberQ", "[", "part", "]"}], ",", "part", ",", "500"}], 
-         "]"}]}], ";", 
+            RowBox[{"[", "2", "]"}], "]"}], "\[Equal]", "1"}], ",", 
+          RowBox[{"If", "[", 
+           RowBox[{
+            RowBox[{"NumberQ", "[", 
+             RowBox[{"Log", "[", 
+              RowBox[{"h", "[", 
+               RowBox[{"\[Theta]1", ",", "\[Theta]0", ",", 
+                RowBox[{
+                 RowBox[{"data", "[", 
+                  RowBox[{"[", "a", "]"}], "]"}], "[", 
+                 RowBox[{"[", "1", "]"}], "]"}]}], "]"}], "]"}], "]"}], ",", 
+            RowBox[{"-", 
+             RowBox[{"Log", "[", 
+              RowBox[{"h", "[", 
+               RowBox[{"\[Theta]1", ",", "\[Theta]0", ",", 
+                RowBox[{
+                 RowBox[{"data", "[", 
+                  RowBox[{"[", "a", "]"}], "]"}], "[", 
+                 RowBox[{"[", "1", "]"}], "]"}]}], "]"}], "]"}]}], ",", 
+            "500"}], "]"}], ",", 
+          RowBox[{"If", "[", 
+           RowBox[{
+            RowBox[{"NumberQ", "[", 
+             RowBox[{"Log", "[", 
+              RowBox[{"1", "-", 
+               RowBox[{"h", "[", 
+                RowBox[{"\[Theta]1", ",", "\[Theta]0", ",", 
+                 RowBox[{
+                  RowBox[{"data", "[", 
+                   RowBox[{"[", "a", "]"}], "]"}], "[", 
+                  RowBox[{"[", "1", "]"}], "]"}]}], "]"}]}], "]"}], "]"}], 
+            ",", 
+            RowBox[{"-", 
+             RowBox[{"Log", "[", 
+              RowBox[{"1", "-", 
+               RowBox[{"h", "[", 
+                RowBox[{"\[Theta]1", ",", "\[Theta]0", ",", 
+                 RowBox[{
+                  RowBox[{"data", "[", 
+                   RowBox[{"[", "a", "]"}], "]"}], "[", 
+                  RowBox[{"[", "1", "]"}], "]"}]}], "]"}]}], "]"}]}], ",", 
+            "500"}], "]"}]}], "]"}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{"(*", 
+        RowBox[{
+        "use", " ", "500", " ", "as", " ", "indeterminate", " ", "to", " ", 
+         "avoid", " ", "graphing", " ", "errors"}], "*)"}], 
+       "\[IndentingNewLine]", 
+       RowBox[{"sum", "+=", "part"}], ";", 
        RowBox[{"a", "+=", "1"}]}]}], "]"}], ";", "sum"}], 
    ")"}]}], "\[IndentingNewLine]", 
  RowBox[{"\[Theta]0min", ":=", 
   RowBox[{"-", "2000"}]}], "\[IndentingNewLine]", 
- RowBox[{"\[Theta]0max", ":=", "2000"}], "\[IndentingNewLine]", 
+ RowBox[{"\[Theta]0max", ":=", "1000"}], "\[IndentingNewLine]", 
  RowBox[{"\[Theta]1min", ":=", 
-  RowBox[{"-", "1000"}]}], "\[IndentingNewLine]", 
+  RowBox[{"-", "500"}]}], "\[IndentingNewLine]", 
  RowBox[{"\[Theta]1max", ":=", "1000"}], "\[IndentingNewLine]", 
  RowBox[{"Manipulate", "[", 
   RowBox[{
@@ -895,9 +995,8 @@ Cell[BoxData[{
       RowBox[{
        RowBox[{"Plot3D", "[", 
         RowBox[{
-         RowBox[{"Log", "[", 
-          RowBox[{"J", "[", 
-           RowBox[{"\[Theta]01", ",", "\[Theta]00"}], "]"}], "]"}], ",", 
+         RowBox[{"J", "[", 
+          RowBox[{"\[Theta]01", ",", "\[Theta]00"}], "]"}], ",", 
          RowBox[{"{", 
           RowBox[{"\[Theta]01", ",", "\[Theta]1min", ",", "\[Theta]1max"}], 
           "}"}], ",", 
@@ -912,23 +1011,23 @@ Cell[BoxData[{
           RowBox[{"Point", "[", 
            RowBox[{"{", 
             RowBox[{"\[Theta]1", ",", "\[Theta]0", ",", 
-             RowBox[{"Log", "[", 
-              RowBox[{"J", "[", 
-               RowBox[{"\[Theta]1", ",", "\[Theta]0"}], "]"}], "]"}]}], "}"}],
-            "]"}]}], "}"}], "]"}]}], "]"}], ",", 
+             RowBox[{"J", "[", 
+              RowBox[{"\[Theta]1", ",", "\[Theta]0"}], "]"}]}], "}"}], 
+           "]"}]}], "}"}], "]"}]}], "]"}], ",", 
      RowBox[{"Show", "[", 
       RowBox[{
        RowBox[{"ContourPlot", "[", 
         RowBox[{
-         RowBox[{"Log", "[", 
-          RowBox[{"J", "[", 
-           RowBox[{"\[Theta]01", ",", "\[Theta]00"}], "]"}], "]"}], ",", 
+         RowBox[{"J", "[", 
+          RowBox[{"\[Theta]01", ",", "\[Theta]00"}], "]"}], ",", 
          RowBox[{"{", 
           RowBox[{"\[Theta]01", ",", "\[Theta]1min", ",", "\[Theta]1max"}], 
           "}"}], ",", 
          RowBox[{"{", 
           RowBox[{"\[Theta]00", ",", "\[Theta]0min", ",", "\[Theta]0max"}], 
-          "}"}]}], "]"}], ",", 
+          "}"}], ",", 
+         RowBox[{"PlotLegends", "\[Rule]", "Automatic"}], ",", 
+         RowBox[{"Contours", "\[Rule]", "30"}]}], "]"}], ",", 
        RowBox[{"Graphics", "[", 
         RowBox[{"{", 
          RowBox[{"Blue", ",", 
@@ -1004,27 +1103,38 @@ Cell[BoxData[{
    3.775478167228086*^9, {3.775514348193919*^9, 3.7755143924460373`*^9}, {
    3.775514801734518*^9, 3.775514803501212*^9}, {3.7755153193160577`*^9, 
    3.775515321219948*^9}, {3.7755153702139006`*^9, 3.775515373354119*^9}, {
-   3.775516248395296*^9, 3.7755162505078297`*^9}}],
+   3.775516248395296*^9, 3.7755162505078297`*^9}, {3.7755703798519526`*^9, 
+   3.77557041919915*^9}, {3.7755705015473356`*^9, 3.775570550187729*^9}, {
+   3.7755706489591885`*^9, 3.7755707049849787`*^9}, {3.7755707829614153`*^9, 
+   3.7755708389002037`*^9}, {3.7755709340845237`*^9, 3.775571001591796*^9}, {
+   3.7755710983135457`*^9, 3.7755711186680326`*^9}, {3.7755712566778574`*^9, 
+   3.7755713325505304`*^9}, {3.7755714183764725`*^9, 
+   3.7755714188256683`*^9}, {3.775571618078555*^9, 3.7755716226172185`*^9}, {
+   3.7755717678766346`*^9, 3.775571883997055*^9}, {3.775571923618972*^9, 
+   3.775571989510727*^9}, 3.7755721217657704`*^9, {3.7755721659394436`*^9, 
+   3.775572181058664*^9}, {3.7755722159185038`*^9, 3.775572364500002*^9}, 
+   3.7755724020027742`*^9, {3.7755724353663507`*^9, 3.7755725207381363`*^9}, {
+   3.7755725526801896`*^9, 3.7755725818191996`*^9}}],
 
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{$CellContext`\[Theta]0$$ = -60., \
-$CellContext`\[Theta]1$$ = 28., Typeset`show$$ = True, 
+   DynamicModuleBox[{$CellContext`\[Theta]0$$ = -2000, \
+$CellContext`\[Theta]1$$ = -500, Typeset`show$$ = True, 
     Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
     "\"\:65e0\:6807\:9898\"", Typeset`specs$$ = {{
-      Hold[$CellContext`\[Theta]1$$], -1000, 1000}, {
-      Hold[$CellContext`\[Theta]0$$], -2000, 2000}}, Typeset`size$$ = {
-    486.5, {461., 16.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
-    Typeset`skipInitDone$$ = True, $CellContext`\[Theta]1$655119$$ = 
-    0, $CellContext`\[Theta]0$655120$$ = 0}, 
+      Hold[$CellContext`\[Theta]1$$], -500, 1000}, {
+      Hold[$CellContext`\[Theta]0$$], -2000, 1000}}, Typeset`size$$ = {
+    333.5, {698., 16.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = True, $CellContext`\[Theta]1$189965$$ = 
+    0, $CellContext`\[Theta]0$189966$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {$CellContext`\[Theta]0$$ = -2000, \
-$CellContext`\[Theta]1$$ = -1000}, "ControllerVariables" :> {
-        Hold[$CellContext`\[Theta]1$$, $CellContext`\[Theta]1$655119$$, 0], 
-        Hold[$CellContext`\[Theta]0$$, $CellContext`\[Theta]0$655120$$, 0]}, 
+$CellContext`\[Theta]1$$ = -500}, "ControllerVariables" :> {
+        Hold[$CellContext`\[Theta]1$$, $CellContext`\[Theta]1$189965$$, 0], 
+        Hold[$CellContext`\[Theta]0$$, $CellContext`\[Theta]0$189966$$, 0]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -1041,24 +1151,22 @@ $CellContext`\[Theta]1$$ = -1000}, "ControllerVariables" :> {
 $CellContext`\[Theta]0$$]]], "\n"], 
         Show[
          Plot3D[
-          Log[
-           $CellContext`J[$CellContext`\[Theta]01, $CellContext`\[Theta]00]], \
+          $CellContext`J[$CellContext`\[Theta]01, $CellContext`\[Theta]00], \
 {$CellContext`\[Theta]01, $CellContext`\[Theta]1min, \
 $CellContext`\[Theta]1max}, {$CellContext`\[Theta]00, \
 $CellContext`\[Theta]0min, $CellContext`\[Theta]0max}, PlotRange -> All], 
          Graphics3D[{Blue, 
            PointSize[Large], 
            Point[{$CellContext`\[Theta]1$$, $CellContext`\[Theta]0$$, 
-             Log[
-              $CellContext`J[$CellContext`\[Theta]1$$, \
-$CellContext`\[Theta]0$$]]}]}]], 
+             $CellContext`J[$CellContext`\[Theta]1$$, \
+$CellContext`\[Theta]0$$]}]}]], 
         Show[
          ContourPlot[
-          Log[
-           $CellContext`J[$CellContext`\[Theta]01, $CellContext`\[Theta]00]], \
+          $CellContext`J[$CellContext`\[Theta]01, $CellContext`\[Theta]00], \
 {$CellContext`\[Theta]01, $CellContext`\[Theta]1min, \
 $CellContext`\[Theta]1max}, {$CellContext`\[Theta]00, \
-$CellContext`\[Theta]0min, $CellContext`\[Theta]0max}], 
+$CellContext`\[Theta]0min, $CellContext`\[Theta]0max}, PlotLegends -> 
+          Automatic, Contours -> 30], 
          Graphics[{Blue, 
            PointSize[Large], 
            Point[{$CellContext`\[Theta]1$$, $CellContext`\[Theta]0$$}]}]], 
@@ -1075,10 +1183,10 @@ $CellContext`x], {$CellContext`x, 0, 5}, AxesLabel -> {"x", "y"},
                   Part[$CellContext`data, $CellContext`a, 2]}]]; 
              Increment[$CellContext`a]]; $CellContext`ret}, 
          PlotRange -> {-1, 2}]}, 
-      "Specifications" :> {{$CellContext`\[Theta]1$$, -1000, 
-         1000}, {$CellContext`\[Theta]0$$, -2000, 2000}}, "Options" :> {}, 
+      "Specifications" :> {{$CellContext`\[Theta]1$$, -500, 
+         1000}, {$CellContext`\[Theta]0$$, -2000, 1000}}, "Options" :> {}, 
       "DefaultOptions" :> {}],
-     ImageSizeCache->{548., {311., 318.}},
+     ImageSizeCache->{395., {429., 436.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -1090,219 +1198,15 @@ $CellContext`x], {$CellContext`x, 0, 5}, AxesLabel -> {"x", "y"},
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
  CellChangeTimes->{
-  3.775359421975415*^9, 3.775359894247408*^9, {3.7753599379562826`*^9, 
-   3.7753599824348*^9}, {3.775360441283679*^9, 3.775360488545573*^9}, 
-   3.775360525705618*^9, {3.7753613995471635`*^9, 3.7753614127759933`*^9}, 
-   3.7753619263684645`*^9, {3.7753619689457645`*^9, 3.7753619772423525`*^9}, 
-   3.7753620269613667`*^9, {3.775362061346302*^9, 3.7753620777536774`*^9}, 
-   3.7753621221642866`*^9, 3.7753621777516165`*^9, {3.775362234911127*^9, 
-   3.775362274006877*^9}, 3.7753624132120743`*^9, 3.775362521037158*^9, 
-   3.7753626142941265`*^9, 3.7754779865792246`*^9, 3.775478018865611*^9, 
-   3.7754780550361967`*^9, 3.7754781271982827`*^9, 3.775478171543095*^9, 
-   3.7754793594917088`*^9, 3.775479392127816*^9, 3.775514277769548*^9, {
-   3.7755143559970293`*^9, 3.775514376731183*^9}, 3.7755144583772345`*^9, 
-   3.77551480515888*^9, 3.7755151280737734`*^9, 3.7755152708133183`*^9, 
-   3.7755153225349874`*^9, 3.7755153754570208`*^9, 3.7755156339879856`*^9, 
-   3.7755162525219526`*^9}],
-
-Cell[BoxData[
- RowBox[{
-  StyleBox[
-   RowBox[{"Part", "::", "partw"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"Part \[NoBreak]\\!\\(\\*RowBox[{\\\"5\\\"}]\\)\[NoBreak] \
-of \[NoBreak]\\!\\(\\*RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", \
-RowBox[{\\\"1\\\", \\\",\\\", \\\"0\\\"}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\
-\"{\\\", RowBox[{\\\"2\\\", \\\",\\\", \\\"0\\\"}], \\\"}\\\"}], \\\",\\\", \
-RowBox[{\\\"{\\\", RowBox[{\\\"3\\\", \\\",\\\", \\\"1\\\"}], \\\"}\\\"}], \\\
-\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"5\\\", \\\",\\\", \\\"1\\\"}], \
-\\\"}\\\"}]}], \\\"}\\\"}]\\)\[NoBreak] does not exist. \\!\\(\\*ButtonBox[\\\
-\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
-ButtonData:>\\\"paclet:ref/message/General/partw\\\", ButtonNote -> \
-\\\"Part::partw\\\"]\\)\"\>"}]], "Message", "MSG",
- CellChangeTimes->{3.77551628883609*^9}],
-
-Cell[BoxData[
- RowBox[{
-  StyleBox[
-   RowBox[{"Part", "::", "partw"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"Part \[NoBreak]\\!\\(\\*RowBox[{\\\"5\\\"}]\\)\[NoBreak] \
-of \[NoBreak]\\!\\(\\*RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", \
-RowBox[{\\\"1\\\", \\\",\\\", \\\"0\\\"}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\
-\"{\\\", RowBox[{\\\"2\\\", \\\",\\\", \\\"0\\\"}], \\\"}\\\"}], \\\",\\\", \
-RowBox[{\\\"{\\\", RowBox[{\\\"3\\\", \\\",\\\", \\\"1\\\"}], \\\"}\\\"}], \\\
-\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"5\\\", \\\",\\\", \\\"1\\\"}], \
-\\\"}\\\"}]}], \\\"}\\\"}]\\)\[NoBreak] does not exist. \\!\\(\\*ButtonBox[\\\
-\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
-ButtonData:>\\\"paclet:ref/message/General/partw\\\", ButtonNote -> \
-\\\"Part::partw\\\"]\\)\"\>"}]], "Message", "MSG",
- CellChangeTimes->{3.775516289339139*^9}],
-
-Cell[BoxData[
- RowBox[{
-  StyleBox[
-   RowBox[{"Part", "::", "partw"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"Part \[NoBreak]\\!\\(\\*RowBox[{\\\"5\\\"}]\\)\[NoBreak] \
-of \[NoBreak]\\!\\(\\*RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", \
-RowBox[{\\\"1\\\", \\\",\\\", \\\"0\\\"}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\
-\"{\\\", RowBox[{\\\"2\\\", \\\",\\\", \\\"0\\\"}], \\\"}\\\"}], \\\",\\\", \
-RowBox[{\\\"{\\\", RowBox[{\\\"3\\\", \\\",\\\", \\\"1\\\"}], \\\"}\\\"}], \\\
-\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"5\\\", \\\",\\\", \\\"1\\\"}], \
-\\\"}\\\"}]}], \\\"}\\\"}]\\)\[NoBreak] does not exist. \\!\\(\\*ButtonBox[\\\
-\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
-ButtonData:>\\\"paclet:ref/message/General/partw\\\", ButtonNote -> \
-\\\"Part::partw\\\"]\\)\"\>"}]], "Message", "MSG",
- CellChangeTimes->{3.7755162896542063`*^9}],
-
-Cell[BoxData[
- RowBox[{
-  StyleBox[
-   RowBox[{"General", "::", "stop"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"Further output of \
-\[NoBreak]\\!\\(\\*StyleBox[RowBox[{\\\"Part\\\", \\\"::\\\", \
-\\\"partw\\\"}], \\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during \
-this calculation. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
-ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
-ButtonData:>\\\"paclet:ref/message/General/stop\\\", ButtonNote -> \
-\\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
- CellChangeTimes->{3.7755162899630675`*^9}],
-
-Cell[BoxData[
- RowBox[{
-  StyleBox[
-   RowBox[{"Part", "::", "partw"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"Part \[NoBreak]\\!\\(\\*RowBox[{\\\"5\\\"}]\\)\[NoBreak] \
-of \[NoBreak]\\!\\(\\*RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", \
-RowBox[{\\\"1\\\", \\\",\\\", \\\"0\\\"}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\
-\"{\\\", RowBox[{\\\"2\\\", \\\",\\\", \\\"0\\\"}], \\\"}\\\"}], \\\",\\\", \
-RowBox[{\\\"{\\\", RowBox[{\\\"3\\\", \\\",\\\", \\\"1\\\"}], \\\"}\\\"}], \\\
-\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"5\\\", \\\",\\\", \\\"1\\\"}], \
-\\\"}\\\"}]}], \\\"}\\\"}]\\)\[NoBreak] does not exist. \\!\\(\\*ButtonBox[\\\
-\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
-ButtonData:>\\\"paclet:ref/message/General/partw\\\", ButtonNote -> \
-\\\"Part::partw\\\"]\\)\"\>"}]], "Message", "MSG",
- CellChangeTimes->{3.7755162972774277`*^9}],
-
-Cell[BoxData[
- RowBox[{
-  StyleBox[
-   RowBox[{"Part", "::", "partw"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"Part \[NoBreak]\\!\\(\\*RowBox[{\\\"5\\\"}]\\)\[NoBreak] \
-of \[NoBreak]\\!\\(\\*RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", \
-RowBox[{\\\"1\\\", \\\",\\\", \\\"0\\\"}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\
-\"{\\\", RowBox[{\\\"2\\\", \\\",\\\", \\\"0\\\"}], \\\"}\\\"}], \\\",\\\", \
-RowBox[{\\\"{\\\", RowBox[{\\\"3\\\", \\\",\\\", \\\"1\\\"}], \\\"}\\\"}], \\\
-\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"5\\\", \\\",\\\", \\\"1\\\"}], \
-\\\"}\\\"}]}], \\\"}\\\"}]\\)\[NoBreak] does not exist. \\!\\(\\*ButtonBox[\\\
-\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
-ButtonData:>\\\"paclet:ref/message/General/partw\\\", ButtonNote -> \
-\\\"Part::partw\\\"]\\)\"\>"}]], "Message", "MSG",
- CellChangeTimes->{3.775516297840945*^9}],
-
-Cell[BoxData[
- RowBox[{
-  StyleBox[
-   RowBox[{"Part", "::", "partw"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"Part \[NoBreak]\\!\\(\\*RowBox[{\\\"5\\\"}]\\)\[NoBreak] \
-of \[NoBreak]\\!\\(\\*RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", \
-RowBox[{\\\"1\\\", \\\",\\\", \\\"0\\\"}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\
-\"{\\\", RowBox[{\\\"2\\\", \\\",\\\", \\\"0\\\"}], \\\"}\\\"}], \\\",\\\", \
-RowBox[{\\\"{\\\", RowBox[{\\\"3\\\", \\\",\\\", \\\"1\\\"}], \\\"}\\\"}], \\\
-\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"5\\\", \\\",\\\", \\\"1\\\"}], \
-\\\"}\\\"}]}], \\\"}\\\"}]\\)\[NoBreak] does not exist. \\!\\(\\*ButtonBox[\\\
-\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
-ButtonData:>\\\"paclet:ref/message/General/partw\\\", ButtonNote -> \
-\\\"Part::partw\\\"]\\)\"\>"}]], "Message", "MSG",
- CellChangeTimes->{3.775516298548031*^9}],
-
-Cell[BoxData[
- RowBox[{
-  StyleBox[
-   RowBox[{"General", "::", "stop"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"Further output of \
-\[NoBreak]\\!\\(\\*StyleBox[RowBox[{\\\"Part\\\", \\\"::\\\", \
-\\\"partw\\\"}], \\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during \
-this calculation. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
-ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
-ButtonData:>\\\"paclet:ref/message/General/stop\\\", ButtonNote -> \
-\\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
- CellChangeTimes->{3.775516298718518*^9}],
-
-Cell[BoxData[
- RowBox[{
-  StyleBox[
-   RowBox[{"Part", "::", "partw"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"Part \[NoBreak]\\!\\(\\*RowBox[{\\\"5\\\"}]\\)\[NoBreak] \
-of \[NoBreak]\\!\\(\\*RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", \
-RowBox[{\\\"1\\\", \\\",\\\", \\\"0\\\"}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\
-\"{\\\", RowBox[{\\\"2\\\", \\\",\\\", \\\"0\\\"}], \\\"}\\\"}], \\\",\\\", \
-RowBox[{\\\"{\\\", RowBox[{\\\"3\\\", \\\",\\\", \\\"1\\\"}], \\\"}\\\"}], \\\
-\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"5\\\", \\\",\\\", \\\"1\\\"}], \
-\\\"}\\\"}]}], \\\"}\\\"}]\\)\[NoBreak] does not exist. \\!\\(\\*ButtonBox[\\\
-\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
-ButtonData:>\\\"paclet:ref/message/General/partw\\\", ButtonNote -> \
-\\\"Part::partw\\\"]\\)\"\>"}]], "Message", "MSG",
- CellChangeTimes->{3.775516318468646*^9}],
-
-Cell[BoxData[
- RowBox[{
-  StyleBox[
-   RowBox[{"Part", "::", "partw"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"Part \[NoBreak]\\!\\(\\*RowBox[{\\\"5\\\"}]\\)\[NoBreak] \
-of \[NoBreak]\\!\\(\\*RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", \
-RowBox[{\\\"1\\\", \\\",\\\", \\\"0\\\"}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\
-\"{\\\", RowBox[{\\\"2\\\", \\\",\\\", \\\"0\\\"}], \\\"}\\\"}], \\\",\\\", \
-RowBox[{\\\"{\\\", RowBox[{\\\"3\\\", \\\",\\\", \\\"1\\\"}], \\\"}\\\"}], \\\
-\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"5\\\", \\\",\\\", \\\"1\\\"}], \
-\\\"}\\\"}]}], \\\"}\\\"}]\\)\[NoBreak] does not exist. \\!\\(\\*ButtonBox[\\\
-\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
-ButtonData:>\\\"paclet:ref/message/General/partw\\\", ButtonNote -> \
-\\\"Part::partw\\\"]\\)\"\>"}]], "Message", "MSG",
- CellChangeTimes->{3.775516318793533*^9}],
-
-Cell[BoxData[
- RowBox[{
-  StyleBox[
-   RowBox[{"Part", "::", "partw"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"Part \[NoBreak]\\!\\(\\*RowBox[{\\\"5\\\"}]\\)\[NoBreak] \
-of \[NoBreak]\\!\\(\\*RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", \
-RowBox[{\\\"1\\\", \\\",\\\", \\\"0\\\"}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\
-\"{\\\", RowBox[{\\\"2\\\", \\\",\\\", \\\"0\\\"}], \\\"}\\\"}], \\\",\\\", \
-RowBox[{\\\"{\\\", RowBox[{\\\"3\\\", \\\",\\\", \\\"1\\\"}], \\\"}\\\"}], \\\
-\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"5\\\", \\\",\\\", \\\"1\\\"}], \
-\\\"}\\\"}]}], \\\"}\\\"}]\\)\[NoBreak] does not exist. \\!\\(\\*ButtonBox[\\\
-\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
-ButtonData:>\\\"paclet:ref/message/General/partw\\\", ButtonNote -> \
-\\\"Part::partw\\\"]\\)\"\>"}]], "Message", "MSG",
- CellChangeTimes->{3.7755163189755135`*^9}],
-
-Cell[BoxData[
- RowBox[{
-  StyleBox[
-   RowBox[{"General", "::", "stop"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"Further output of \
-\[NoBreak]\\!\\(\\*StyleBox[RowBox[{\\\"Part\\\", \\\"::\\\", \
-\\\"partw\\\"}], \\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during \
-this calculation. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
-ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
-ButtonData:>\\\"paclet:ref/message/General/stop\\\", ButtonNote -> \
-\\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
- CellChangeTimes->{3.775516319020153*^9}]
+  3.775572123201563*^9, {3.7755721684488287`*^9, 3.775572183416912*^9}, {
+   3.7755722170795584`*^9, 3.775572245689627*^9}, {3.7755723072167892`*^9, 
+   3.7755723650695486`*^9}, {3.775572403450635*^9, 3.7755724206530533`*^9}, {
+   3.775572454095146*^9, 3.7755724807414117`*^9}, {3.7755725123437195`*^9, 
+   3.775572522423525*^9}, 3.7755726094261007`*^9}]
 }, Open  ]]
 },
-WindowSize->{751, 878},
-WindowMargins->{{Automatic, -1369}, {29, Automatic}},
+WindowSize->{751, 828},
+WindowMargins->{{Automatic, -1511}, {Automatic, 18}},
 Magnification:>1.25 Inherited,
 FrontEndVersion->"10.4 for Microsoft Windows (64-bit) (2016\:5e744\:670811\
 \:65e5)",
@@ -1320,39 +1224,32 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[558, 20, 793, 14, 129, "Input"],
-Cell[1354, 36, 1253, 32, 129, "Input"],
-Cell[2610, 70, 339, 8, 60, "Input"],
+Cell[1354, 36, 1278, 32, 129, "Input"],
+Cell[2635, 70, 339, 8, 60, "Input"],
 Cell[CellGroupData[{
-Cell[2974, 82, 4444, 116, 678, "Input"],
-Cell[7421, 200, 3216, 64, 333, "Output"]
+Cell[2999, 82, 4444, 116, 678, "Input"],
+Cell[7446, 200, 3262, 64, 337, "Output"]
 }, Open  ]],
-Cell[10652, 267, 291, 7, 60, "Input"],
+Cell[10723, 267, 291, 7, 60, "Input"],
 Cell[CellGroupData[{
-Cell[10968, 278, 5531, 138, 793, "Input"],
-Cell[16502, 418, 3722, 75, 371, "Output"]
+Cell[11039, 278, 5531, 138, 793, "Input"],
+Cell[16573, 418, 3736, 75, 371, "Output"]
 }, Open  ]],
-Cell[20239, 496, 1129, 24, 175, "Input"],
-Cell[21371, 522, 747, 14, 129, "Input"],
+Cell[20324, 496, 1129, 24, 175, "Input"],
+Cell[21456, 522, 747, 14, 129, "Input"],
 Cell[CellGroupData[{
-Cell[22143, 540, 6540, 162, 946, "Input"],
-Cell[28686, 704, 4348, 90, 609, "Output"]
+Cell[22228, 540, 6540, 162, 946, "Input"],
+Cell[28771, 704, 4422, 91, 609, "Output"],
+Cell[33196, 797, 872, 15, 30, "Message"],
+Cell[34071, 814, 870, 15, 30, "Message"],
+Cell[34944, 831, 870, 15, 30, "Message"],
+Cell[35817, 848, 560, 12, 30, "Message"],
+Cell[36380, 862, 870, 15, 30, "Message"]
 }, Open  ]],
-Cell[33049, 797, 750, 15, 106, "Input"],
+Cell[37265, 880, 600, 12, 83, "Input"],
 Cell[CellGroupData[{
-Cell[33824, 816, 7901, 190, 1013, "Input"],
-Cell[41728, 1008, 4835, 97, 682, "Output"],
-Cell[46566, 1107, 869, 15, 30, "Message"],
-Cell[47438, 1124, 870, 15, 30, "Message"],
-Cell[48311, 1141, 872, 15, 30, "Message"],
-Cell[49186, 1158, 562, 12, 30, "Message"],
-Cell[49751, 1172, 872, 15, 30, "Message"],
-Cell[50626, 1189, 870, 15, 30, "Message"],
-Cell[51499, 1206, 870, 15, 30, "Message"],
-Cell[52372, 1223, 560, 12, 30, "Message"],
-Cell[52935, 1237, 870, 15, 30, "Message"],
-Cell[53808, 1254, 870, 15, 30, "Message"],
-Cell[54681, 1271, 872, 15, 30, "Message"],
-Cell[55556, 1288, 560, 12, 30, "Message"]
+Cell[37890, 896, 9652, 220, 1189, "Input"],
+Cell[47545, 1118, 4194, 86, 885, "Output"]
 }, Open  ]]
 }
 ]
